@@ -3,7 +3,7 @@ package refiner
 import com.osmb.api.item.ItemID
 
 const val MAX_INVENTORY_SLOTS = 28
-const val VERSION_URI = "https://raw.githubusercontent.com/999kiko/OSMB/refs/heads/feature/herb-refiner/herbs-refiner/VERSION"
+const val VERSION_URI = "https://raw.githubusercontent.com/999kiko/OSMB/refs/heads/main/herbs-refiner/VERSION"
 const val VERSION = 1.0
 
 enum class Herb(

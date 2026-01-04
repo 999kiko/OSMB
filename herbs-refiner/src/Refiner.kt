@@ -208,7 +208,7 @@ class Refiner(scriptCore: Any) : Script(scriptCore) {
         val fontBold = Font("Arial", Font.BOLD, 13)
         val font = Font("Arial", Font.PLAIN, 12)
 
-        val width = targets.count() * 75
+        val width = targets.count() * 90
 
         c.fillRect(5, 40, width, 100, Color.BLACK.rgb, 1.0)
         c.drawRect(5, 40, width, 100, Color.GREEN.rgb)

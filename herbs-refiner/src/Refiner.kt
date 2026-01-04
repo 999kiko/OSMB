@@ -58,6 +58,7 @@ class Refiner(scriptCore: Any) : Script(scriptCore) {
         val isFinished = herbsWithdrawn.values.all { it == 0 }
         if (isFinished && !inventory.containsAny(itemIds)) {
             log("Finished!")
+            widgetManager?.logoutTab?.logout()
             stop()
         }
 

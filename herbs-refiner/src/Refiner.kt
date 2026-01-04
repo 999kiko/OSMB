@@ -101,7 +101,7 @@ class Refiner(scriptCore: Any) : Script(scriptCore) {
 
         // Deposit inventory
         if (inventory.containsAny(itemIds) && !widgetManager.bank.depositAll(emptySet())) {
-            pollFramesUntil({ false }, random(500, 1200))
+            pollFramesUntil({ false }, RandomUtils.uniformRandom(500, 1200))
             return
         }
 

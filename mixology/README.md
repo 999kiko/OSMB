@@ -4,7 +4,7 @@
 
 1. Have an EMPTY inventory, except the mox, lye, aga paste
 2. Set zoom to 30-35
-3. Set script FPS to 20 for best results
+3. Set **SCRIPT** FPS to 20 in **OSMB** and **GAME** fps to 15-20 for best results
 
 
 ### Known issues

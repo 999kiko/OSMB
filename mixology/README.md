@@ -12,5 +12,5 @@
 1. Sometimes it will keep clicking the retort work station causing the script to keep failing
    1. This _shouldn't happen_ often if you have followed the instructions above
    2. No failsafe has been made for this yet
-   3. Patch for this has been pushed since 1.2
+   3. Patch for this has been pushed since 1.02
 2. If alembic workstation fails @ me stating your herblore level

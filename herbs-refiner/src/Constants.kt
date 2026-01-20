@@ -4,7 +4,7 @@ import com.osmb.api.item.ItemID
 
 const val MAX_INVENTORY_SLOTS = 28
 const val VERSION_URI = "https://raw.githubusercontent.com/999kiko/OSMB/refs/heads/main/herbs-refiner/VERSION"
-const val VERSION = 1.01
+const val VERSION = 1.02
 
 enum class Herb(
     val herbName: String,
@@ -16,7 +16,7 @@ enum class Herb(
     MARRENTIL("Marrentil", ItemID.MARRENTILL, PasteType.MOX, 13),
     TARROMIN("Tarromin", ItemID.TARROMIN, PasteType.MOX, 15),
     HARRALANDER("Harralander", ItemID.HARRALANDER, PasteType.MOX, 20),
-    RANARR_WEED("Ranarr weed", ItemID.RANARR_WEED, PasteType.LYE, 26),
+//    RANARR_WEED("Ranarr weed", ItemID.RANARR_WEED, PasteType.LYE, 26),
     TOADFLAX("Toadflax", ItemID.TOADFLAX, PasteType.LYE, 32),
     IRIT_LEAF("Irit leaf", ItemID.IRIT_LEAF, PasteType.AGA,30),
     AVANTOE("Avantoe", ItemID.AVANTOE, PasteType.LYE,30),
